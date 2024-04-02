@@ -14,11 +14,6 @@ public class RegisterStepDefinition {
 		this.registerPage = new RegisterPage();
 	}
 
-	@Given("Je me connecte sur l application Mercury ")
-	public void jeMeConnecteSurLeSiteWebMercury() {
-		registerPage.goToUrl();
-	}
-
 	@When("Je clique sur le bouton Register")
 	public void jeCliqueSurLeBoutonRegister() {
 		registerPage.clickOnRegisterButton();
